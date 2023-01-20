@@ -80,7 +80,7 @@ $(a-b)^2=a^2+b^2-2ab$
 
 =>
 
-$L2=\sqrt{\sum (a_{test}^2+a_{train}^2+2a_{test}a_{train})}$
+$L2=\sqrt{\sum (a_{test}^2+a_{train}^2-2a_{test}a_{train})}$
 ```
 so the preprocess is: Square all tests' features then sum by column. Same operation for trains'.
 then utilize the broadcast rules.
