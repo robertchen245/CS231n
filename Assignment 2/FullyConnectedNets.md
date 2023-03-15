@@ -446,7 +446,9 @@ $\Huge or$
     next_w= w + lr*v
 ```
 Making the moving average to make previous velocity decrease
-2. RMSProp and Adam
+
+2. RMSProp and Adam 
+
 These two optimization's prototype is AdaGrad. AdaGrad using second order momentum to make Learning rate adaptive. 
 ```py
 cache += dx**2
