@@ -557,7 +557,7 @@ def adam(w, dw, config=None):
 
 ```
 2. Comparison 
-![Alt text](CS231n/Assignment 2/image_lib/fc_plot.PNG)
+![Alt text](CS231n/Assignment%202/image_lib/fc_plot.PNG)
 3. Train a good model
 ```py
 best_model = None
